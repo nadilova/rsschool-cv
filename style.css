@@ -18,6 +18,9 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    min-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 .nav-list {
     display: flex;
@@ -44,6 +47,7 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .section {
     width: 50%;
@@ -55,4 +59,10 @@ html {
 }
 header {
     background-color: greenyellow;
+}
+.img {
+    overflow-clip-margin: content-box;
+    overflow: clip
+    overflow-x: ;
+    overflow-y: ;
 }

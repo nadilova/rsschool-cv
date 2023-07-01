@@ -4,108 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico"
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico"
 </head>
-<body>
+<body> 
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contact info</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">About myself</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#work" class="nav-link">Work experience</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contact info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#summary" class="nav-link">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Work experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">Code example</a>
+                    </li>
                 </ul>
             </nav>
-            <section class="section" id="personal"><h1 class="section-title">NURGUL ADILOVA</h1></section>
-            <section class="section" id="job"><h2 class="section-title">JUNIOR FRONTEND DEVELOPER</h2></section>
-            <section class="image" id="image">
-                <img src="image.jpg" alt="my photo">
-            </section>
         </div>
     </header>
     <main class="main">
-        <div class="container" class="main-container">
-            <section class="section" id="summary">
-                <h2 class="section-title">About myself</h2>
-                <p>Loyal, responsible. Strong analytical skills. Effective communication. Problems solving, finding solutions.</p>
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/profile.jpg" class="img" alt="my photo">
+                <div class="section-profile-titles">
+                    <h1 class="section-title">NURGUL ADILOVA</h1>
+                    <h3 class="section-subtitle">JUNIOR FRONTEND DEVELOPER</h3>
+                </div>
             </section>
             <section class="section" id="contacts">
-                <h2 class="section-title">Contact information</h2>
-                <p>
-                    <ul>
-                        <li>Mobile +31(0)626881819</li>
-                        <li>Email: <nadilova@gmail.com</li>
-                        <li>Telegram: @nadilova7</li>
-                        <li>Discord: Nurgul#2699</li>
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Mobile +31(0)626881819</li>
+                    <li class="section-item contacts-item">Email: <nadilova@gmail.com</li>
+                    <li class="section-item contacts-item">Telegram: @nadilova7</li>
+                    <li class="section-item contacts-item">Discord: Nurgul#2699</li>
                     </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    Loyal, responsible. Strong analytical skills. Effective communication. Problems solving, finding solutions.
                 </p>
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
-                <p>
-                    <ul>
-                        <li>HTML/CSS/JS (basics)</li>
-                        <li>Python (basics)</li>
-                        <li>Git/Github</li>
-                        <li>db/SQL</li>
-                        <li>Trello</li>
-                    </ul>
-                </p>
+                <ul class="section-list">
+                    <li class="section-item">HTML/CSS/JS (basics)</li>
+                    <li class="section-item">Python (basics)</li>
+                    <li class="section-item">Git/Github</li>
+                    <li class="section-item">db/SQL</li>
+                    <li class="section-item">Trello</li>
+                </ul>
             </section>
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
-                <p>English(C1), Russian(C2), Dutch(B2), Spanish(A1)</p>
+                <ul class="section-list">
+                    <li class="section-item">English(C1)</li>
+                    <li class="section-item">Russian(C2)</li>
+                    <li class="section-item">Dutch(B2)</li>
+                </ul>
             </section>
             <section class="section" id="education">
-                <h2 class="section-title">Education, courses</h2>
-                <ul>
-                    <li>Institute of Translators and Interpreters of Utrecht: Dutch-Russian translator</li>
-                    <li>East Kazakhstan State Technical University: IT Engineer</li>
-                    <li>East Kazakhstan State University: English translator, teacher of English</li>
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">Institute of Translators and Interpreters of Utrecht: Dutch-Russian translator</li>
+                    <li class="section-item">East Kazakhstan State Technical University: IT Engineer</li>
+                    <li class="section-item">East Kazakhstan State University: English translator, teacher of English</li>
                 </ul>
-                <p><b>Courses:</b> Stepik: Python for beginners; QA automation and coding: Python/Selenium</p>
+            </section>
+            <section class="section" id="courses"></section>
+                <h2 class="section-title">Courses</h2>
+                <ul class="section-list">
+                    <li class="section-item">Stepik - Python for beginners</li>
+                    <li class="section-item">Udemi - QA automation and coding: Python/Selenium</li>
+                </ul>    
             </section>
             <section class="section" id="work">
                 <h2 class="section-title">Work experience</h2>
-                <p>
-                    <ul>
-                        <li>Freelance: 2009-present (Sworn Dutch translator, English translator)</li>
-                        <li>Cost and contracts engineer: 2006-2008 at WorleyParsonsKazakhstan CTF project</li>
-                        <li>Planning technician: 2004-2006 at ParsonsFluorDaniel SGP-SGI/Pipeline</li>
-                        <li>Application support: 2003-2004 at ParsonsFluorDaniel SGP-SGI IT department</li>
-                        <li>Translator/interpreter: 2001-2002 at Karagachaganak Petroleum Operating Pilot camp/Utilities</li>
-                    </ul>
-                </p>
+                <ul class="section-list">
+                    <li class="section-item">Freelance: 2009-present (Sworn Dutch translator, English translator)</li>
+                    <li class="section-item">Cost and contracts engineer: 2006-2008 at WorleyParsonsKazakhstan CTF project</li>
+                    <li class="section-item">Planning technician: 2004-2006 at ParsonsFluorDaniel SGP-SGI/Pipeline</li>
+                    <li class="section-item">Application support: 2003-2004 at ParsonsFluorDaniel SGP-SGI IT department</li>
+                    <li class="section-item">Translator/interpreter: 2001-2002 at Karagachaganak Petroleum Operating Pilot camp/Utilities</li>
+                </ul>
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
-                <p>
-                    <a href="https://nadilova.github.io/rsschool-cv/cv">CV in Markdown</a>
-                    <a href="https://nadilova.github.io/rsschool-cv/" >CV web page</a>
-                </p>
+                <ol class="section-list">
+                    <li class="section-item">
+                        <a href="https://nadilova.github.io/rsschool-cv/cv">CV in Markdown</a>
+                    </li>
+                    <li class="section-item">
+                        <a href="https://nadilova.github.io/rsschool-cv/">CV webpage</a>
+                    </li>
+                </ol>
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code example</h2>
-                <p>
-                    function nthFibo(n) {
-                    let arrFibo = [0, 1];
-                    for (let i = 2; i < n; i++) {
-                      arrFibo[i] = arrFibo[i-2] + arrFibo[i-1]
-                    }
-                    return arrFibo[n-1];
-                    };
-                </p> 
+                <pre class="pre">
+                    <code>
+                        "function nthFibo(n) {
+                            let arrFibo = [0, 1];
+                            for (let i = 2; i < n; i++) {
+                                arrFibo[i] = arrFibo[i-2] + arrFibo[i-1]
+                            }
+                            return arrFibo[n-1];
+                        };"
+                    </code>
+                </pre> 
             </section>
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
-    </footer>
+        <div class="container footer-container">
+            <div>
+                "2023"
+                <a href="https://github.com/nadilova/" class="github-link">
+                    "nadilova"
+                </a>
+            </div>
+            <a href="https://rs.school/js/" class="rss">RSSchool</a>
+        </div>
+    </footer>    
 </body>
 </html>
