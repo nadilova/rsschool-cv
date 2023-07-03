@@ -1,10 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./assets/favicon.ico"
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="container header-container">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#contacts" class="nav-link">Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#summary" class="nav-link">About myself</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#skills" class="nav-link">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#languages" class="nav-link">Languages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#education" class="nav-link">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#courses" class="nav-link">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projects" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#code" class="nav-link">Code example</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main class="main">
+                <div class="container main-container">
+                    <div class="row" id="profile">
+                        <img src="./assets/profile.jpg" class="img" alt="my photo" width="250" height="250">
+                        <section class="section-profile-titles">
+                            <h1 class="section-title main-title">NURGUL ADILOVA</h1>
+                            <h3 class="section-subtitle">Junior Front-End Developer</h3>
+                        </section>
+                        <section class="section-about">
+                            <h2 class="about">About myself</h2>
+                                <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                        </section>
+                    </div>
+                    <div class="column-left">
+                        <section id="contacts">
+                            <h2 class="section-title">Contacts</h2>
+                            <ul class="section-list">
+                                <li class="section-item contacts-item">Mobile +31(0)626881819</li>
+                                <li class="section-item contacts-item">Email: nadilova@gmail.com</li>
+                                <li class="section-item contacts-item">Telegram: @nadilova7</li>
+                                <li class="section-item contacts-item">Discord: Nurgul#2699</li>
+                            </ul>
+                        </section>
+                        <section id="skills">
+                            <h2 class="section-title">Skills</h2>
+                            <ul class="section-list">
+                                <li class="section-item">HTML/CSS/JS (basics)</li>
+                                <li class="section-item">Python (basics)</li>
+                                <li class="section-item">Git/Github</li>
+                                <li class="section-item">db/SQL</li>
+                                <li class="section-item">Trello</li>
+                            </ul>
+                        </section>
+                        <section id="languages">
+                            <h2 class="section-title">Languages</h2>
+                            <ul class="section-list">
+                                <li class="section-item">English(C1)</li>
+                                <li class="section-item">Russian(C2)</li>
+                                <li class="section-item">Dutch(B2)</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="container right-container">
+                    
+                
+                    
+            
+                    <section class="section right" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <ul class="section-list">
+                            <li class="section-item">Institute of Translators and Interpreters of Utrecht: Dutch-Russian translator</li>
+                            <li class="section-item">East Kazakhstan State Technical University: IT Engineer</li>
+                            <li class="section-item">East Kazakhstan State University: English translator, teacher of English</li>
+                        </ul>
+                    </section>
+                    <section class="section right" id="courses"></section>
+                        <h2 class="section-title">Courses</h2>
+                        <ul class="section-list">
+                            <li class="section-item">Stepik - Python for beginners</li>
+                            <li class="section-item">Udemi - QA automation and coding: Python/Selenium</li>
+                        </ul>    
+                    </section>
+                    <section class="section right" id="projects">
+                        <h2 class="section-title">Projects</h2>
+                        <ol class="section-list">
+                            <li class="section-item">
+                                <a href="https://nadilova.github.io/rsschool-cv/cv">CV in Markdown</a>
+                            </li>
+                            <li class="section-item">
+                                <a href="https://nadilova.github.io/rsschool-cv/">CV webpage</a>
+                            </li>
+                        </ol>
+                    </section>
+                    <section class="section right" id="code">
+                        <h2 class="section-title">Code example</h2>
+                        <pre class="pre">
+                            <code>
+                                "function nthFibo(n) {
+                                    let arrFibo = [0, 1];
+                                    for (let i = 2; i < n; i++) {
+                                        arrFibo[i] = arrFibo[i-2] + arrFibo[i-1]
+                                    }
+                                    return arrFibo[n-1];
+                                };"
+                            </code>
+                        </pre> 
+                    </section>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container footer-container">
+                    <div>
+                        "2023"
+                        <a href="https://github.com/nadilova/" class="github-link">
+                            "nadilova"
+                        </a>
+                    </div>
+                    <a href="https://rs.school/js/" class="rss">RSSchool</a>
+                </div>
+            </footer>
+        </div>    
+    </body>
 </html>
