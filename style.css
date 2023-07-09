@@ -23,7 +23,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column; 
     justify-content: space-between;  
-    border: 7px solid rgb(179,179,0);
     min-height: 100vh;
     margin: 0; 
     padding: 0;
@@ -42,6 +41,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none; 
+    margin: 0;
 }
 .nav-link {
     padding: 0 30px;
@@ -70,28 +70,36 @@ html {
     
 }
 .column-right {
-    width: 65%;
+    width: 60%;
+    padding: 30px;
+}
+.right-border {
+    width: 5%;
+    background-color:  rgb(67, 67, 65);
+
+
 }
 @media (max-width: 768px) {
     .section {
-        width: 100%
+        width: 100%;
+
     }
 }
 
 
-header {
-    background-color: rgb(83, 83, 82);
-    display: flex;
-    width: 100%;
-}
+
 
 .img {
-   margin-top: 40px;
-   margin-bottom: 40px;
-   margin-left: 30px;
-   margin-right: 30px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
    border: 7px solid rgb(179,179,0);   
    border-radius: 50%;
+   position: relative;
+   top: -10px;
+   left: -130px;
+   
 }
 .row {
     display: flex;
@@ -104,33 +112,39 @@ header {
     font-family: 'Roboto-black';
     
 }
-.pre {
-    background-color: rgb(247, 247, 35); 
-    margin: 0, 0, 20px, 0;
-    padding: 20px, 30
-}
+
 .section-about {
-    background-color: rgb(247, 247, 35);
-    color: rgb(83, 83, 82);
-    padding: 0, 40px;
-    margin: 0, 30px;
+    background-color: rgb(83, 83, 82);
+    color: rgb(230, 230, 211);
     position: relative;
-    top: 50px;
-    right: 20px;
+    font-size: 24px;
+    right: 70px;
     width: 40%;
 } 
 .section-profile-titles {
     width: 30%;
+    position: relative;
+    left: -200px;
+    top: 30px;
 }
 
 .container.footer-container {
-    
+    width: 1400px;
+    background-color: rgb(83, 83, 82);
+    padding: 15px;
+}
+.container.header-container{
+    width: 1400px;
     margin: 0 auto;
     background-color: rgb(83, 83, 82);
+   
 }
 .left {
     width: 100%;
-    height: 30%;
+    height: 35%;
+}
+.right {
+    width: 80%;
 }
 
 .main-container {
@@ -139,17 +153,46 @@ header {
 }
 .author {
     color: rgb(250,255,251);
-    position: absolute; 
+    position: relative; 
+    top: 10px;
     left: 20px;
 }
 .rss {
-    position: absolute;
-    right: 20px;
+    position: relative;
+    right: -1280px;
 }
 a {
     text-decoration: none;
     color: rgb(250,255,251);
+    background-color: rgb(83, 83, 82);
 }
-code {
-    justify-content: left;
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    
+}
+h1 {
+    margin: 0;
+    position: relative;
+    left: -130px;
+}
+h3 {
+    position: relative;
+    left: -130px;
+    bottom: 20px;
+}
+.code {
+    display: flex;
+    justify-content: right;
+    margin: 0 auto;
+    position: relative;
+    top: -25px;
+
+}
+.code-heading {
+    margin: 0;
+}
+pre {
+    margin: 0;
 }
